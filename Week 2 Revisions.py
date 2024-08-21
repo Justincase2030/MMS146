@@ -8,6 +8,11 @@ Update Notes [8.21.2024] (by Lanz):
 - added math module
 - added find_factors method
 - added is_perfect_square method
+
+Update Notes [8.22.2024] (by Lanz):
+- FINALLY implemented the new render
+- still havent implemented the row and column labelling
+-definitely should thoooo
 '''
       
 def find_factors(number):
