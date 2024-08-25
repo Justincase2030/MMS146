@@ -92,4 +92,4 @@ if __name__ == "__main__":  #Added by Kevin. This is to run the game.
     game = MemoryGame()
     game.play()
 
-MemoryGame.display_end_game_message()
+#Changed by Arianna. Removed the last line: MemoryGame.display_end_game_message() because display_end_game_message() is an instance method, not a class method. 
