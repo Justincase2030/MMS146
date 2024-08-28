@@ -202,5 +202,7 @@ def PlayGame(): # Start the game, Modified by Manuel
 # Creates a loop for repetative gameplay, by Manuel
 loopActive = True 
 if __name__ == "__main__":
-    while loopActive:
+    if loopActive == True:
         PlayGame()
+    else:
+        exit()
